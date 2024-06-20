@@ -14,16 +14,6 @@
             position: relative;
             border: 2px solid #222;
         }
-        .base {
-            width: 60%;
-            height: 30%;
-            background-color: #333;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 1;
-        }
         .middle {
             width: 80%;
             height: 40%;
@@ -54,8 +44,73 @@
             transform: translateX(-50%);
             z-index: 4;
         }
-        div{
-            margin: 10px;
-            border: 10px;
+        .grueso{
+            border: 50px;
             border-style: solid;
+            border-color: black;
+            padding: 20px;
+            background: rgb(218, 142, 87);
+            border-radius: 10%;
+            width:60%; display:inline-block; border:solid;
+            
+        }
+        .circle {
+            border:10px;
+            border-color: brown;
+            border-style: solid;
+            background: rgb(218, 142, 87);
+            border-radius: 30%;
+            width: 70px;
+            height: 70px;
+            padding: 30px;
+            /*border-bottom: 10px;
+            border-bottom-style: solid;
+            border-bottom-color: white;*/
+        }
+        .cuerpo {
+
+            width: 60%;
+            height: 300px;
+        }
+        
+        .semicirculo2{
+            width: 85%;
+            border-radius: 100px 100px 0 0;
+        }
+        .pantorrilla{
+            width: 60%;
+            height: 150px;
+            border-radius: 0 0 100px 100px;
+        }
+        .pies{
+            width: 70%;
+            height: 60px;
+            border-radius: 100px 150px 0 0;
+        }
+        .cuadrado{
+            width: 50%;
+            height: 100px;
+            border-radius: 10px 10px 10px 10px ;
+        }
+        .cintura{
+            width: 60%;
+            height: 50px;
+            border-radius: 10px 10px 10px 10px ;
+        }
+        .nariz{
+            margin: 10px;
+            border:10px;
+            border-color: brown;
+            border-style: solid;
+            background: rgb(218, 142, 87);
+            border-radius: 5px 5px 100px 100px;
+            width: 50px;
+            height: 170px;
+            padding: 30px;
+
+        }
+        .cabeza{
+            width: 70%;
+            height: 80px;
+            border-radius: -100px 300px 10px 0;
         }
